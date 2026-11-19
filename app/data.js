@@ -11,7 +11,7 @@ export const SUPPLIERS = [
     purchases: 204660,
     paid: 179000,
     due: 25660,
-    last: "18 Nov 2026",
+    last: "18 Nov",
     items: [
       { name: "Fine Atta 10kg", qty: 40, rate: 1150, amount: 46000 },
       { name: "Maida 10kg", qty: 25, rate: 1280, amount: 32000 },
@@ -29,7 +29,7 @@ export const SUPPLIERS = [
     purchases: 148000,
     paid: 126075,
     due: 21925,
-    last: "17 Nov 2026",
+    last: "17 Nov",
     items: [
       { name: "Daal Chana 5kg", qty: 30, rate: 950, amount: 28500 },
       { name: "Daal Moong 5kg", qty: 20, rate: 1100, amount: 22000 },
@@ -46,7 +46,7 @@ export const SUPPLIERS = [
     purchases: 96400,
     paid: 96400,
     due: 0,
-    last: "15 Nov 2026",
+    last: "15 Nov",
     items: [{ name: "Sugar 50kg", qty: 12, rate: 6800, amount: 81600 }],
     history: [{ month: "Nov 2026", purchases: 3, amount: 96400, paid: 96400 }],
   },
@@ -57,7 +57,7 @@ export const SUPPLIERS = [
     purchases: 78250,
     paid: 60000,
     due: 18250,
-    last: "14 Nov 2026",
+    last: "14 Nov",
     items: [{ name: "Banaspati Ghee 16kg", qty: 10, rate: 7200, amount: 72000 }],
     history: [{ month: "Nov 2026", purchases: 2, amount: 78250, paid: 60000 }],
   },
@@ -227,5 +227,5 @@ export const TODAY = {
   sales: 18460,
   cash: 11200,
   dueToday: 4760,
-  outstanding: 30230,
+  outstanding: 29710,
 };

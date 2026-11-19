@@ -140,7 +140,7 @@ export function SuppliersScreen({ go }) {
               <span className="main">
                 <p className="name">{s.name}</p>
                 <p className="detail">
-                  {s.kind} · Last {s.last}
+                  {s.kind} · {s.last}
                 </p>
               </span>
               <span className="amount">
